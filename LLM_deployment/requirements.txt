@@ -1,0 +1,8 @@
+transformers==4.42
+accelerate
+optimum
+bitsandbytes
+optimum
+auto-gptq
+fastapi
+pydantic
