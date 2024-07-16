@@ -1,11 +1,11 @@
 pipeline_params:
-  model: unsloth/Qwen2-1.5B-Instruct-bnb-4bit
+  model: gpt2
   torch_dtype: 'auto'
   device_map: 'auto'
 
 generation_params:
   return_full_text: false
-  max_new_tokens: 1024
+  max_new_tokens: 256
   handle_long_generation: hole
   # temperature: 0.8
   # do_sample: true
